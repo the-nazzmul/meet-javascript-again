@@ -147,7 +147,7 @@ cityList.forEach((city) => {
 // console.log(traveledCities);
 
 /*
-Write a 'for' loop that iterates through the array [2,5,7,9]. Skip the value 7 and multiply the rest by 2. Store the results in a new array named 'doubledNumbers'.
+9. Write a 'for' loop that iterates through the array [2,5,7,9]. Skip the value 7 and multiply the rest by 2. Store the results in a new array named 'doubledNumbers'.
 */
 
 const numbers = [2, 5, 7, 9];
@@ -160,5 +160,18 @@ for (let i = 0; i < numbers.length; i++) {
   doubledNumbers.push(numbers[i] * 2);
 }
 
+/* 
+10. Use a 'for-of' loop to iterate through the array ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]. Stop when the length of the current tea name is greater that 10. Store the teas iterated over in an array named 'shortTeas'
+*/
 
-/* */
+const teaList = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+const shortTeas = [];
+
+for (tea of teaList) {
+  if (tea.length > 10) {
+    break;
+  }
+  shortTeas.push(tea);
+}
+
+// console.log(shortTeas);
