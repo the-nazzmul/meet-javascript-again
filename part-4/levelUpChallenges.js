@@ -164,7 +164,7 @@ for (let i = 0; i < numbers.length; i++) {
 10. Use a 'for-of' loop to iterate through the array ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]. Stop when the length of the current tea name is greater that 10. Store the teas iterated over in an array named 'shortTeas'
 */
 
-const teaList = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+const teaList = ["chai", "jasmine tea", "herbal tea", "green tea", "black tea"];
 const shortTeas = [];
 
 for (tea of teaList) {
