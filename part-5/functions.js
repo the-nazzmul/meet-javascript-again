@@ -44,7 +44,7 @@ function processTeaOrder(teaFunc) {
 const order = processTeaOrder(makeTea); //makeTea is declared before, so did not write it again for this problem
 
 /*
-Write a function named 'createTeaMaker' that returns another function. the returned function should take one parameter, 'teaType', return a message like "Making green tea". Store the returned function in a variable named 'teaMaker' and call it with 'green tea'.
+5. Write a function named 'createTeaMaker' that returns another function. the returned function should take one parameter, 'teaType', return a message like "Making green tea". Store the returned function in a variable named 'teaMaker' and call it with 'green tea'.
 */
 
 function createTeaMaker() {
