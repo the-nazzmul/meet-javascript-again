@@ -9,7 +9,7 @@ function Car(make, model) {
 }
 
 let myCar = new Car("Toyota", "Camry");
-// console.log(myCar);
+console.log(myCar);
 
 let myNewCar = new Car("Toyota", "Prado");
 // console.log(myNewCar);
@@ -43,4 +43,4 @@ function Drink(type) {
 }
 
 let coffee = new Drink("Coffee");
-let chai = Drink("Chai");
+// let chai = Drink("Chai");
